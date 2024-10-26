@@ -1,1 +1,1 @@
-# scripts
+# Automate things
