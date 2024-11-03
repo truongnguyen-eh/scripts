@@ -5,8 +5,8 @@
   - Important note: It won’t detect dynamic imports or URLs generated at runtime. Extra check after running script is needed.
 */
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 // Configuration
 const projectDir = process.argv[2] || './src'; // Change to the root of your frontend project

@@ -8,7 +8,7 @@ How to use this script?
 `node get-relative-path.js /Users/username/project/src /Users/username/project/assets/images`
 */
 
-const path = require('path');
+import path from 'path';
 
 // Function to get the relative path between two directories
 function getRelativePath(dir1, dir2) {

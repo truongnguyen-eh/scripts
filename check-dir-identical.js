@@ -4,9 +4,9 @@ How to use this script?
 - `node check-dir-identical.js path/to/dir1 path/to/dir2`
 */
 
-const fs = require('fs');
-const path = require('path');
-const crypto = require('crypto');
+import fs from 'fs'
+import path from 'path';
+import crypto from 'crypto';
 
 // Function to get all files in a directory recursively
 function getAllFiles(dir) {
